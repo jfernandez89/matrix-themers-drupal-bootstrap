@@ -1,0 +1,26 @@
+{
+  "name": "matrix-themers-bootstrap",
+  "version": "1.0.0",
+  "keywords": [
+    "util",
+    "functional",
+    "server",
+    "client",
+    "browser"
+  ],
+  "author": "fjfernandez",
+  "contributors": [],
+  "dependencies": {},
+  "devDependencies": {
+    "del": "^2.2.1",
+    "glob": "^7.0.5",
+    "gulp-autoprefixer": "^3.1.0",
+    "gulp-concat": "^2.6.0",
+    "gulp-load-plugins": "^1.2.4",
+    "gulp-plumber": "^1.1.0",
+    "gulp-require-tasks": "^1.0.3",
+    "gulp-sass": "^2.3.2",
+    "gulp-util": "^3.0.7",
+    "yargs": "^4.8.1"
+  }
+}

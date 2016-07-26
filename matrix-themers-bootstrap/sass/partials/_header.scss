@@ -1,0 +1,39 @@
+/*
+    Created on : 26-jul-2016, 9:58:47
+    Author     : fjfernandez
+*/
+
+.custom-nav-bar{
+  background-color: $matrix-header-bg;
+  border-color: white;
+}
+
+.navbar-inverse .navbar-brand{
+  color: white;
+}
+
+.navbar-inverse .navbar-nav>li>a{
+  color: white;
+
+  &:hover{
+    background-color: $matrix-button-hover;
+    transition: 0.3s ease-out;
+  }
+}
+
+.navbar-inverse .navbar-toggle {
+  border-color: white;
+  background-color: $matrix-header-bg;
+
+  &:hover{
+    background-color: $matrix-button-hover;
+  }
+
+  &:focus{
+    background-color: $matrix-header-bg;
+  }
+}
+
+.navbar-inverse .navbar-collapse, .navbar-inverse .navbar-form{
+  border-color: rgba(255,255,255,0.5);
+}

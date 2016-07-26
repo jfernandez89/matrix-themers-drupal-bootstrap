@@ -1,0 +1,21 @@
+/*
+    Main file.
+    Author: fjfernandez
+*/
+
+//Imports
+
+//Bootstrap variables
+@import "partials/bootstrap-variables";
+
+//Custom variables
+@import "partials/matrix-variables";
+
+//Bootstrap library
+@import "bower_components/bootstrap-sass/assets/stylesheets/bootstrap";
+
+//Partials
+@import "partials/template";
+@import "partials/header";
+@import "partials/body";
+

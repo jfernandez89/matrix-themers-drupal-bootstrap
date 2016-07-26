@@ -1,0 +1,14 @@
+{
+  "name": "matrix-themers-bootstrap",
+  "version": "1.0.0",
+  "main": "path/to/main.css",
+  "ignore": [
+    ".jshintrc",
+    "**/*.txt"
+  ],
+  "dependencies": {
+  },
+  "devDependencies": {
+    "bootstrap-sass": "~3.3.6"
+  }
+}
