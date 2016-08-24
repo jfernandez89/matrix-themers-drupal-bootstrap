@@ -8,8 +8,8 @@
     Author     : fjfernandez
 */
 /*!
- * Bootstrap v3.3.6 (http://getbootstrap.com)
- * Copyright 2011-2015 Twitter, Inc.
+ * Bootstrap v3.3.7 (http://getbootstrap.com)
+ * Copyright 2011-2016 Twitter, Inc.
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
  */
 /*! normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css */
@@ -1080,7 +1080,6 @@ a {
     color: #23527c;
     text-decoration: underline; }
   a:focus {
-    outline: thin dotted;
     outline: 5px auto -webkit-focus-ring-color;
     outline-offset: -2px; }
 
@@ -2293,7 +2292,6 @@ select[size] {
 input[type="file"]:focus,
 input[type="radio"]:focus,
 input[type="checkbox"]:focus {
-  outline: thin dotted;
   outline: 5px auto -webkit-focus-ring-color;
   outline-offset: -2px; }
 
@@ -2799,7 +2797,6 @@ select[multiple].input-lg,
   -ms-user-select: none;
   user-select: none; }
   .btn:focus, .btn.focus, .btn:active:focus, .btn:active.focus, .btn.active:focus, .btn.active.focus {
-    outline: thin dotted;
     outline: 5px auto -webkit-focus-ring-color;
     outline-offset: -2px; }
   .btn:hover, .btn:focus, .btn.focus {
@@ -5777,6 +5774,8 @@ button.close {
   .hidden-print {
     display: none !important; } }
 
+/*//Font Awesome library
+@import "public_html/bower_components/components-font-awesome/scss/font-awesome";*/
 /*
     General template styles.
     Author: fjfernandez
@@ -5829,3 +5828,13 @@ footer {
 .add-button-bg {
   background-image: -webkit-linear-gradient(80deg, #229da6 0%, #229da6 50%, #25a8b4 51%, #25a8b4 100%);
   background-image: linear-gradient(10deg, #229da6 0%, #229da6 50%, #25a8b4 51%, #25a8b4 100%); }
+
+.modify-info-icon {
+  color: #0DA6B2;
+  font-size: 14px; }
+
+.modify-twitter-icon {
+  padding-top: 10px;
+  font-size: 25px;
+  text-align: center;
+  color: #1da1f2; }

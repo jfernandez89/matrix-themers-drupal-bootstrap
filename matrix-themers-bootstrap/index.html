@@ -13,6 +13,8 @@
 
     <!-- Custom CSS -->
     <link href="css/matrix-themers-bootstrap.css" rel="stylesheet">
+    <link href="public_html/bower_components/components-font-awesome/css/font-awesome.min.css" rel="stylesheet">
+
 
   </head>
 
@@ -64,10 +66,33 @@
 
       <!-- Jumbotron Header -->
       <header class="jumbotron spacer">
+
         <h1>Welcome!</h1>
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsa, ipsam, eligendi, in quo sunt possimus non incidunt odit vero aliquid similique quaerat nam nobis illo aspernatur vitae fugiat numquam repellat.</p>
-        <p><a class="btn btn-primary btn-large add-button-bg">Accede a la noticia</a>
-        </p>
+        <p><a class="btn btn-primary btn-large add-button-bg" data-toggle="modal" data-target="#myModal">Accede a la noticia</a></p>
+
+        <!-- Modal -->
+        <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+          <div class="modal-dialog" role="document">
+            <div class="modal-content">
+              <!-- Modal Header -->
+              <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                <h4 class="modal-title" id="myModalLabel">Emergya</h4>
+              </div>
+              <!-- Modal body -->
+              <div class="modal-body">
+                <div>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed et vulputate tortor, vestibulum lobortis neque. Nam bibendum dolor id tristique maximus.</div>
+                <div class="modify-twitter-icon"><a href="https://twitter.com/emergya?lang=es" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a></div>
+              </div>
+              <!-- Modal Footer -->
+              <div class="modal-footer">
+                <button type="button" class="btn btn-primary" data-dismiss="modal">Cerrar</button>
+              </div>
+            </div>
+          </div>
+        </div>
+
       </header>
 
       <hr>
@@ -90,7 +115,7 @@
               <h3>Feature Label</h3>
               <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
               <p>
-                <a href="#" class="btn btn-primary">Acceder</a> <a href="#" class="btn btn-default">Más Informacion</a>
+                <a href="#" class="btn btn-primary">Acceder</a> <a href="#" class="btn btn-default"><i class="fa fa-info-circle modify-info-icon"></i> Más Informacion</a>
               </p>
             </div>
           </div>
@@ -103,7 +128,7 @@
               <h3>Feature Label</h3>
               <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
               <p>
-                <a href="#" class="btn btn-primary">Acceder</a> <a href="#" class="btn btn-default">Más Informacion</a>
+                <a href="#" class="btn btn-primary">Acceder</a> <a href="#" class="btn btn-default"><i class="fa fa-info-circle modify-info-icon"></i> Más Informacion</a>
               </p>
             </div>
           </div>
@@ -116,7 +141,7 @@
               <h3>Feature Label</h3>
               <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
               <p>
-                <a href="#" class="btn btn-primary">Acceder</a> <a href="#" class="btn btn-default">Más Informacion</a>
+                <a href="#" class="btn btn-primary">Acceder</a> <a href="#" class="btn btn-default"><i class="fa fa-info-circle modify-info-icon"></i> Más Informacion</a>
               </p>
             </div>
           </div>
@@ -129,7 +154,7 @@
               <h3>Feature Label</h3>
               <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
               <p>
-                <a href="#" class="btn btn-primary">Acceder</a> <a href="#" class="btn btn-default">Más Informacion</a>
+                <a href="#" class="btn btn-primary">Acceder</a> <a href="#" class="btn btn-default"><i class="fa fa-info-circle modify-info-icon"></i> Más Informacion</a>
               </p>
             </div>
           </div>
