@@ -1,0 +1,9 @@
+node_modules/
+/nbproject/
+bower_components/
+dist
+reports
+coverage
+target
+**/*min*
+.idea

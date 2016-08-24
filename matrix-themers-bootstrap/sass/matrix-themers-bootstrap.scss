@@ -12,7 +12,10 @@
 @import "partials/matrix-variables";
 
 //Bootstrap library
-@import "bower_components/bootstrap-sass/assets/stylesheets/bootstrap";
+@import "public_html/bower_components/bootstrap-sass/assets/stylesheets/bootstrap";
+
+//Font Awesome library
+@import "public_html/bower_components/components-font-awesome/scss/font-awesome"
 
 //Partials
 @import "partials/template";

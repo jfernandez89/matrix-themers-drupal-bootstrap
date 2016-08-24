@@ -7,8 +7,9 @@
     "**/*.txt"
   ],
   "dependencies": {
+    "components-font-awesome": "~4.6.3",
+    "bootstrap-sass": "~3.3.7"
   },
   "devDependencies": {
-    "bootstrap-sass": "~3.3.6"
   }
 }
